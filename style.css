@@ -1,0 +1,180 @@
+
+main {
+    position: relative;
+}
+
+.keret {
+    position: absolute;
+    left: 25%;
+    top: 50%;
+
+}
+
+#ablak {
+    position: relative;
+    z-index: 1000;
+}
+
+.bezar {
+    position: absolute;
+
+    right: 18px;
+    padding: 3px 5px;
+    border-radius: 5px;
+    background-color: rgb(171, 179, 179);
+    color: rgb(177, 38, 38);
+    font-size: 15pt;
+    cursor: grab;
+}
+
+
+.bezar:hover .ablak {
+    background: blue;
+    color: red;
+    display: none;
+}
+
+
+
+.lenyilo {
+    position: relative;
+}
+.dropdown:hover .dropdown-content {
+    position: absolute;
+}
+
+
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+
+header {
+    margin-top: 100px;
+}
+
+
+.megjelenokep {
+    display: none;
+}
+
+
+.kiskep:hover .megjelenokep {
+    display: block;
+}
+
+
+.kep {
+    position: relative;
+}
+
+
+
+.megjelenokep {
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 100%;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+.galeria {
+    width: 100%;
+}
+
+
+
+.kep {
+    width: 100%;
+    background: rgb(246, 248, 248);
+    padding: 15px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+
+
+.galeria img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+main {
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+}
+
+
+nav {
+    background: rgb(218, 233, 238);
+    padding: 20px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+
+
+nav ul {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-gap: 5px;
+    padding: 0;
+    text-align: center;
+}
+
+
+
+
+nav ul a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    width: 100%;
+    padding: 5px 20px;
+}
+
+
+
+nav ul a:hover {
+    color: orangered;
+}
+
+.kulso li {
+    background: rgb(88, 95, 97);
+    border-radius: 5px;
+}
+.dropdown-content {
+    display: none;
+}
+
+
+
+.dropdown-content li {
+    background-color: aliceblue;
+
+    border: 1px solid rgb(181, 188, 190);
+    margin: 1px 0 1px 22px;
+}
+
+
+.dropdown-content a {
+    color: rgb(88, 95, 97);
+    padding: 5px 15px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+ 
+
